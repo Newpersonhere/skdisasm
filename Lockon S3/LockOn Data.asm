@@ -122,8 +122,8 @@ Map_LBZBreakableWall:
 		include "Levels/LBZ/Misc Object Data/Map - Breakable Wall.asm"
 Map_AIZIntroWaves:
 		include "Levels/AIZ/Misc Object Data/Map - Intro Waves.asm"
-Map_LBZUnusedElevator:
-		include "Levels/LBZ/Misc Object Data/Map - Unused Elevator.asm"
+Map_LBZElevator:
+		include "Levels/LBZ/Misc Object Data/Map - Elevator.asm"
 Map_LBZExplodingTrigger:
 		include "Levels/LBZ/Misc Object Data/Map - Exploding Trigger.asm"
 Map_MGZDashTrigger:
@@ -136,8 +136,8 @@ Map_LBZFlameThrower:
 		include "Levels/LBZ/Misc Object Data/Map - Flame Thrower.asm"
 Map_LBZCupElevator:
 		include "Levels/LBZ/Misc Object Data/Map - Cup Elevator.asm"
-Map_LBZUnusedTiltingBridge:
-		include "Levels/LBZ/Misc Object Data/Map - Unused Tilting Bridge.asm"
+Map_LBZTiltingBridge:
+		include "Levels/LBZ/Misc Object Data/Map - Tilting Bridge.asm"
 Map_LBZPipePlug:
 		include "Levels/LBZ/Misc Object Data/Map - PipePlug.asm"
 Map_LBZSpinLauncher:
