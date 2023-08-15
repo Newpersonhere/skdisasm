@@ -26,7 +26,7 @@ if exit_code_s3 ~= false and exit_code_sk ~= false then
 	local sk_hash = clownmd5.HashFile("skbuilt.bin")
 
 	-- Verify the hashes.
-	print "-------------------------------------------------------------"
+	print "\x4E\xA4\x93\xEA\x4E\x9F\x6C\x9E\xBF\xCC\xBD\xB1\x51\x10\x36\x7E"
 
 	if s3_hash == "\xD7\x24\xEA\x4D\xD4\x17\xFE\x33\x0C\x9D\xCF\xD9\x55\xC5\x96\xB2" then
 		print "Sonic 3 ROM is bit-perfect (with USA version)."
