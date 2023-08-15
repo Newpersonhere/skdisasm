@@ -16,7 +16,7 @@ local improved_sound_driver_compression = false
 local common = require "build_tools.lua.common"
 
 local compression = improved_sound_driver_compression and "kosinski-optimised" or "kosinski"
-local success, continue = common.build_rom("sonic3k", "skbuilt", "-D Sonic3_Complete=0", "-p=FF -z=0," .. compression .. ",Size_of_Snd_driver_guess,before -z=1300," .. compression .. ",Size_of_Snd_driver2_guess,before", false, "https://github.com/sonicretro/skdisasm")
+local success, continue = common.build_rom("sonic3k", "skbuilt", "-D Sonic3_Complete=0", "-p=FF -z=0," .. compression .. ",Size_of_Snd_driver_guess,before -z=1300," .. compression .. ",Size_of_Snd_driver2_guess,before", true, "https://github.com/sonicretro/skdisasm")
 
 if not success then
 	exit_code = false
